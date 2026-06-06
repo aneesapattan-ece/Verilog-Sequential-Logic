@@ -10,13 +10,13 @@ The objective of this repository is to strengthen the understanding of clocked d
 
 ## Projects Included
 
-| Project              | Description                                      |
-| -------------------- | ------------------------------------------------ |
-| D Flip-Flop          | Edge-triggered data storage element              |
-| JK Flip-Flop         | Supports Hold, Reset, Set, and Toggle operations |
-| T Flip-Flop          | Toggle flip-flop used in counters                |
-| 4-Bit Shift Register | Serial data shifting through multiple stages     |
-| 4-Bit Up Counter     | Binary counting sequence using clock pulses      |
+| Project | Description |
+|-----------|-------------|
+| D Flip-Flop | Edge-triggered data storage element |
+| JK Flip-Flop | Supports Hold, Reset, Set, and Toggle operations |
+| T Flip-Flop | Toggle flip-flop used in counters |
+| 4-Bit Shift Register | Serial data shifting through multiple stages |
+| 4-Bit Up Counter | Binary counting sequence using clock pulses |
 
 ---
 
@@ -43,7 +43,7 @@ Verilog-Sequential-Logic/
 ├── Shift_Register/
 │   ├── shift_register_4bit.v
 │   ├── shift_register_4bit_tb.v
-│   └── shift_register_waveform.png
+│   └── shift_register_4bit_waveform.png
 │
 ├── Counter_4Bit/
 │   ├── counter_4bit.v
@@ -60,9 +60,9 @@ Verilog-Sequential-Logic/
 ## Truth Table
 
 | Clock Edge | D | Q(next) |
-| ---------- | - | ------- |
-| ↑          | 0 | 0       |
-| ↑          | 1 | 1       |
+|------------|---|----------|
+| ↑ | 0 | 0 |
+| ↑ | 1 | 1 |
 
 ### Waveform
 
@@ -75,11 +75,11 @@ Verilog-Sequential-Logic/
 ## Truth Table
 
 | J | K | Q(next) | Operation |
-| - | - | ------- | --------- |
-| 0 | 0 | Q       | Hold      |
-| 0 | 1 | 0       | Reset     |
-| 1 | 0 | 1       | Set       |
-| 1 | 1 | Q̅      | Toggle    |
+|---|---|----------|------------|
+| 0 | 0 | Q | Hold |
+| 0 | 1 | 0 | Reset |
+| 1 | 0 | 1 | Set |
+| 1 | 1 | Q̅ | Toggle |
 
 ### Waveform
 
@@ -92,9 +92,9 @@ Verilog-Sequential-Logic/
 ## Truth Table
 
 | T | Q(next) | Operation |
-| - | ------- | --------- |
-| 0 | Q       | Hold      |
-| 1 | Q̅      | Toggle    |
+|---|----------|------------|
+| 0 | Q | Hold |
+| 1 | Q̅ | Toggle |
 
 ### Waveform
 
@@ -123,7 +123,7 @@ Clock 4 → 1111
 
 ### Waveform
 
-![Shift Register Waveform](Shift_Register/shift_register_waveform.png)
+![Shift Register Waveform](Shift_Register/shift_register_4bit_waveform.png)
 
 ---
 
@@ -161,10 +161,10 @@ The counter increments its value by one on every rising edge of the clock.
 
 ## Tools Used
 
-* Verilog HDL
-* EDA Playground
-* EPWave
-* GitHub
+- Verilog HDL
+- EDA Playground
+- EPWave
+- GitHub
 
 ---
 
@@ -172,13 +172,13 @@ The counter increments its value by one on every rising edge of the clock.
 
 Through these projects, I gained practical experience in:
 
-* Sequential Logic Design
-* Verilog HDL Programming
-* Clocked Circuit Design
-* Testbench Development
-* Functional Verification
-* Waveform Analysis and Debugging
-* Hardware Modeling and Simulation
+- Sequential Logic Design
+- Verilog HDL Programming
+- Clocked Circuit Design
+- Testbench Development
+- Functional Verification
+- Waveform Analysis and Debugging
+- Hardware Modeling and Simulation
 
 ---
 
@@ -186,18 +186,18 @@ Through these projects, I gained practical experience in:
 
 This repository will be expanded with more advanced sequential and communication projects, including:
 
-* Finite State Machines (FSMs)
-* Traffic Light Controller
-* Arithmetic Logic Unit (ALU)
-* UART Transmitter
-* UART Receiver
-* FPGA-Oriented Designs
+- Finite State Machines (FSMs)
+- Traffic Light Controller
+- Arithmetic Logic Unit (ALU)
+- UART Transmitter
+- UART Receiver
+- FPGA-Oriented Designs
 
 ---
 
 ## Author
 
-**Aneesa Pattan**
+**Aneesa Pattan**  
 Electronics and Communication Engineering (ECE) Student
 
 ---
